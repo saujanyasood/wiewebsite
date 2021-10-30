@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/wiewebsite/static/js/main.fce579d8.chunk.js",
+    "main.js.map": "/wiewebsite/static/js/main.fce579d8.chunk.js.map",
+    "runtime-main.js": "/wiewebsite/static/js/runtime-main.9bccefb4.js",
+    "runtime-main.js.map": "/wiewebsite/static/js/runtime-main.9bccefb4.js.map",
+    "static/js/2.7ee423b6.chunk.js": "/wiewebsite/static/js/2.7ee423b6.chunk.js",
+    "static/js/2.7ee423b6.chunk.js.map": "/wiewebsite/static/js/2.7ee423b6.chunk.js.map",
+    "index.html": "/wiewebsite/index.html",
+    "static/js/2.7ee423b6.chunk.js.LICENSE.txt": "/wiewebsite/static/js/2.7ee423b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bccefb4.js",
+    "static/js/2.7ee423b6.chunk.js",
+    "static/js/main.fce579d8.chunk.js"
+  ]
+}
