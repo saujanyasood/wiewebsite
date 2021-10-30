@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.js": "/wiewebsite/static/js/main.fce579d8.chunk.js",
-    "main.js.map": "/wiewebsite/static/js/main.fce579d8.chunk.js.map",
+    "main.css": "/wiewebsite/static/css/main.ac26e289.chunk.css",
+    "main.js": "/wiewebsite/static/js/main.79fa3bda.chunk.js",
+    "main.js.map": "/wiewebsite/static/js/main.79fa3bda.chunk.js.map",
     "runtime-main.js": "/wiewebsite/static/js/runtime-main.9bccefb4.js",
     "runtime-main.js.map": "/wiewebsite/static/js/runtime-main.9bccefb4.js.map",
-    "static/js/2.7ee423b6.chunk.js": "/wiewebsite/static/js/2.7ee423b6.chunk.js",
-    "static/js/2.7ee423b6.chunk.js.map": "/wiewebsite/static/js/2.7ee423b6.chunk.js.map",
+    "static/js/2.a40778e9.chunk.js": "/wiewebsite/static/js/2.a40778e9.chunk.js",
+    "static/js/2.a40778e9.chunk.js.map": "/wiewebsite/static/js/2.a40778e9.chunk.js.map",
     "index.html": "/wiewebsite/index.html",
-    "static/js/2.7ee423b6.chunk.js.LICENSE.txt": "/wiewebsite/static/js/2.7ee423b6.chunk.js.LICENSE.txt"
+    "static/css/main.ac26e289.chunk.css.map": "/wiewebsite/static/css/main.ac26e289.chunk.css.map",
+    "static/js/2.a40778e9.chunk.js.LICENSE.txt": "/wiewebsite/static/js/2.a40778e9.chunk.js.LICENSE.txt",
+    "static/media/Screenshot 2021-10-31 at 12.42.04 AM.270baed1.png": "/wiewebsite/static/media/Screenshot 2021-10-31 at 12.42.04 AM.270baed1.png",
+    "static/media/Screenshot 2021-10-31 at 12.42.24 AM.6d90003b.png": "/wiewebsite/static/media/Screenshot 2021-10-31 at 12.42.24 AM.6d90003b.png",
+    "static/media/Screenshot 2021-10-31 at 12.42.48 AM.ee21da12.png": "/wiewebsite/static/media/Screenshot 2021-10-31 at 12.42.48 AM.ee21da12.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9bccefb4.js",
-    "static/js/2.7ee423b6.chunk.js",
-    "static/js/main.fce579d8.chunk.js"
+    "static/js/2.a40778e9.chunk.js",
+    "static/css/main.ac26e289.chunk.css",
+    "static/js/main.79fa3bda.chunk.js"
   ]
 }
