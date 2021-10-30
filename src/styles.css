@@ -1,18 +1,24 @@
 body{
     margin: 0px;
+    width: 100%;
 }
-.container{
-    border: 0px;
-}
-
 div{
     border: 1px solid;
     border-color: black;
     text-align: center;
-    
 }
 .header{
     height: 100px;
+}
+.carouselItem{
+    height: 700px;
+    width: 100%;
+}
+.carousel-caption{
+    border: 0px;
+}
+.carousel-indicators{
+    border: 0px;
 }
 .navBar{
     text-align: right;
@@ -24,11 +30,7 @@ div{
     padding-left: 20px;
 }
 .carousel{
-    height: 650px;
-    background-image: url("https://picsum.photos/2000/650");
-}
-.carousel h1{
-    background-color: white;
+    height: 700px;
 }
 .footer{
     height: 300px;

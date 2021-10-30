@@ -9,7 +9,7 @@ import TestimonialCard from "./Testimonials"
 
 function App(){
     return (
-        <div className="container">
+        <body>
         <Header /> 
         <NavBar />
         <Carousel />
@@ -17,7 +17,7 @@ function App(){
         <Events />
         <TestimonialCard img="https://picsum.photos/100" position="WIE Chair" />
         <Footer />
-        </div>   
+        </body>
     );
 }
 
