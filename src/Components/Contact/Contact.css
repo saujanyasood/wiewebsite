@@ -1,0 +1,14 @@
+.contact{
+    height: 300px;
+    background-color: burlywood;
+}
+.contactDeets{
+    display: inline-block;
+    height: 300px;
+    width: 50%;
+}
+.links{
+    height: 300px;
+    width: 49.7%;
+    float: right;
+}

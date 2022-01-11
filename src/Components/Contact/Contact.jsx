@@ -1,8 +1,9 @@
 import React from "react"
+import "./Contact.css"
 
 function Footer(){
     return (
-        <div className="footer">
+        <div className="contact" id="contact">
             <div className="contactDeets">
                 Contact deets
             </div>

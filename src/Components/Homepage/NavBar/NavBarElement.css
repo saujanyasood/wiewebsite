@@ -1,0 +1,14 @@
+.navBarElement h3{
+    margin: 0;
+    font-size: 16px;
+}
+
+.navBarElement a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.navBarElement a:hover{
+    color:#F5C0C0;
+}

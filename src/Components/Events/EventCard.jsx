@@ -1,4 +1,5 @@
 import React from "react"
+import "./Events.css"
 
 function EventCard(props){
     return (<div className="eventCard">
