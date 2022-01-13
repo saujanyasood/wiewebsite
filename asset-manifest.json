@@ -1,23 +1,38 @@
 {
   "files": {
-    "main.css": "/wiewebsite/static/css/main.ac26e289.chunk.css",
-    "main.js": "/wiewebsite/static/js/main.79fa3bda.chunk.js",
-    "main.js.map": "/wiewebsite/static/js/main.79fa3bda.chunk.js.map",
+    "main.css": "/wiewebsite/static/css/main.76ea7a26.chunk.css",
+    "main.js": "/wiewebsite/static/js/main.a142214f.chunk.js",
+    "main.js.map": "/wiewebsite/static/js/main.a142214f.chunk.js.map",
     "runtime-main.js": "/wiewebsite/static/js/runtime-main.9bccefb4.js",
     "runtime-main.js.map": "/wiewebsite/static/js/runtime-main.9bccefb4.js.map",
-    "static/js/2.a40778e9.chunk.js": "/wiewebsite/static/js/2.a40778e9.chunk.js",
-    "static/js/2.a40778e9.chunk.js.map": "/wiewebsite/static/js/2.a40778e9.chunk.js.map",
+    "static/css/2.591db2b6.chunk.css": "/wiewebsite/static/css/2.591db2b6.chunk.css",
+    "static/js/2.26b767fe.chunk.js": "/wiewebsite/static/js/2.26b767fe.chunk.js",
+    "static/js/2.26b767fe.chunk.js.map": "/wiewebsite/static/js/2.26b767fe.chunk.js.map",
     "index.html": "/wiewebsite/index.html",
-    "static/css/main.ac26e289.chunk.css.map": "/wiewebsite/static/css/main.ac26e289.chunk.css.map",
-    "static/js/2.a40778e9.chunk.js.LICENSE.txt": "/wiewebsite/static/js/2.a40778e9.chunk.js.LICENSE.txt",
-    "static/media/Screenshot 2021-10-31 at 12.42.04 AM.270baed1.png": "/wiewebsite/static/media/Screenshot 2021-10-31 at 12.42.04 AM.270baed1.png",
-    "static/media/Screenshot 2021-10-31 at 12.42.24 AM.6d90003b.png": "/wiewebsite/static/media/Screenshot 2021-10-31 at 12.42.24 AM.6d90003b.png",
-    "static/media/Screenshot 2021-10-31 at 12.42.48 AM.ee21da12.png": "/wiewebsite/static/media/Screenshot 2021-10-31 at 12.42.48 AM.ee21da12.png"
+    "static/css/2.591db2b6.chunk.css.map": "/wiewebsite/static/css/2.591db2b6.chunk.css.map",
+    "static/css/main.76ea7a26.chunk.css.map": "/wiewebsite/static/css/main.76ea7a26.chunk.css.map",
+    "static/js/2.26b767fe.chunk.js.LICENSE.txt": "/wiewebsite/static/js/2.26b767fe.chunk.js.LICENSE.txt",
+    "static/media/APIs.0421bcf3.jpeg": "/wiewebsite/static/media/APIs.0421bcf3.jpeg",
+    "static/media/ARVR.f56983d5.jpeg": "/wiewebsite/static/media/ARVR.f56983d5.jpeg",
+    "static/media/Blockchain.f79dc077.jpeg": "/wiewebsite/static/media/Blockchain.f79dc077.jpeg",
+    "static/media/CodingBlocks.f3eb90cf.jpeg": "/wiewebsite/static/media/CodingBlocks.f3eb90cf.jpeg",
+    "static/media/CyberSecurity.ed60b8d7.jpeg": "/wiewebsite/static/media/CyberSecurity.ed60b8d7.jpeg",
+    "static/media/Fintech.6937a678.jpeg": "/wiewebsite/static/media/Fintech.6937a678.jpeg",
+    "static/media/Innovation.879c0a11.jpeg": "/wiewebsite/static/media/Innovation.879c0a11.jpeg",
+    "static/media/PanelDisc.07f30bb9.jpeg": "/wiewebsite/static/media/PanelDisc.07f30bb9.jpeg",
+    "static/media/WIExperience.4490b781.jpeg": "/wiewebsite/static/media/WIExperience.4490b781.jpeg",
+    "static/media/WebDevelopment.7a407bdd.jpeg": "/wiewebsite/static/media/WebDevelopment.7a407bdd.jpeg",
+    "static/media/WomenInTech.b482a136.jpeg": "/wiewebsite/static/media/WomenInTech.b482a136.jpeg",
+    "static/media/iTrack.153a759e.jpeg": "/wiewebsite/static/media/iTrack.153a759e.jpeg",
+    "static/media/wieLogoWhite.bf41b97e.png": "/wiewebsite/static/media/wieLogoWhite.bf41b97e.png",
+    "static/media/wievid.119515df.mp4": "/wiewebsite/static/media/wievid.119515df.mp4",
+    "static/media/woman.9015cae2.png": "/wiewebsite/static/media/woman.9015cae2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9bccefb4.js",
-    "static/js/2.a40778e9.chunk.js",
-    "static/css/main.ac26e289.chunk.css",
-    "static/js/main.79fa3bda.chunk.js"
+    "static/css/2.591db2b6.chunk.css",
+    "static/js/2.26b767fe.chunk.js",
+    "static/css/main.76ea7a26.chunk.css",
+    "static/js/main.a142214f.chunk.js"
   ]
 }
