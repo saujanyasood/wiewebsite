@@ -7,12 +7,13 @@ import apple from "./images/apple.png";
 export const data = [
   {
     heading: "Google Genration Scholarship",
+    description: " Women students(pursuing computer)if selected students will receive $1,000 USD",
     img: google ,
     date: " Dec 17- Jan 4",
   },
   {
     heading: " DeShaw",
-
+    
     img: deshaw,
     date: "30 August",
   },
