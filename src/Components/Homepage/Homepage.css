@@ -1,7 +1,30 @@
-.homepage{
-    background-color: black;
-    /* background-image: url("./womancover.png"); */
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    height: 100vh;
+.homepage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.videoBg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoBg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.3);
+    z-index: 3;
 }

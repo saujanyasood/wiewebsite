@@ -1,20 +1,4 @@
 .cover{
-    height: calc(100vh - 100px);
-    position: relative;
-    top: 100px;
-    color: white;
-    display: flex;
-    align-items: center;
+    
 }
 
-.cover .text{
-    margin: 60px;
-}
-
-.cover .text h1{
-    font-size: 80px;
-}
-
-.cover .text h2{
-    font-size: 50px;
-}

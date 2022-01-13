@@ -82,6 +82,7 @@ export default function CardSlider() {
         autoplay
         autoplayTimeout={3000}
         nav
+        responsiveClass
       >
         {cards.map((card, index) => {
           return(<div className="item"><Card title={card.title} img={card.img} key={index}/></div>)

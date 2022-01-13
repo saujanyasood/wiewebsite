@@ -3,6 +3,8 @@
     font-family: 'Montserrat', sans-serif;
     overflow: scroll;
     scroll-behavior: smooth;
+    background: linear-gradient(to right, #0F0A18, #0F0A18);
+    color: white;
 }
 
 .app .sections{
@@ -17,6 +19,7 @@
 .sections .homepageContainer{
     height: calc(100vh - 100px);
     width: 100%;
+    position: relative;
 }
 
 .sections > *{
