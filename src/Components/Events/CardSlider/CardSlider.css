@@ -1,96 +1,146 @@
-.slider-container {
-  width: 90%;
-  height: 570px;
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.CardSlider {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 3vmin;
+}
+
+.CardSlider {
+  background: #151515;
+  color: #fff;
+  overflow: hidden;
+}
+
+.CardSlider {
   display: flex;
-  /* position: relative; */
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.slides {
+  display: grid;
+}
+.slides > .slide {
+  grid-area: 1/-1;
+}
+.slides > button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  font-size: 5rem;
+  width: 5rem;
+  height: 5rem;
+  top: 30%;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+  z-index: 5;
+}
+.slides > button:hover {
+  opacity: 1;
+}
+.slides > button:focus {
+  outline: none;
+}
+.slides > button:first-child {
+  left: -50%;
+}
+.slides > button:last-child {
+  right: -50%;
+}
+
+.slideContent {
+  width: 30vw;
+  height: 40vw;
+  /* background-size: cover; */
+  display: flex;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease-in-out;
+  opacity: 0.7;
+  /* display: grid; */
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) translateX(calc(100% * var(--offset))) rotateY(calc(-45deg * var(--dir)));
+}
+
+.slideContent img {
+  height: 60%;
+  object-fit: contain;
+}
+
+.slideContentInner {
+  transform-style: preserve-3d;
+  transform: translateZ(2rem);
+  transition: opacity 0.3s linear;
+  text-shadow: 0 0.1rem 1rem #000;
+  opacity: 0;
+}
+.slideContentInner .slideSubtitle,
+.slideContentInner .slideTitle {
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.2ch;
+  text-transform: uppercase;
   margin: 0;
 }
-
-.slider-container .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
+.slideContentInner .slideSubtitle::before {
+  content: "— ";
+}
+.slideContentInner .slideDescription {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.2ch;
 }
 
-.slider-container .owl-nav{
-    margin: 0;
+.slideBackground {
+  position: fixed;
+  top: 0;
+  left: -10%;
+  right: -10%;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s linear, transform 0.3s ease-in-out;
+  pointer-events: none;
+  transform: translateX(calc(10% * var(--dir)));
 }
 
-.slider-container .owl-nav > *{
-    outline: none;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 50px;
+.slide[data-active] {
+  z-index: 2;
+  pointer-events: auto;
 }
-
-
-.slider-container .owl-nav span{
-    font-size: 30px;
-    color: rgb(116, 116, 116);
+.slide[data-active] .slideBackground {
+  opacity: 0.2;
+  transform: none;
 }
-
-.owl-theme .owl-nav [class*='owl-']{
-    transition: all 0.5s ease;
+.slide[data-active] .slideContentInner {
+  opacity: 1;
 }
-
-.owl-theme .owl-nav [class*='owl-']:hover {
-    background: rgba(128, 128, 128, 0.133);
-    border-radius: 100%;
+.slide[data-active] .slideContent {
+  --x: calc(var(--px) - 0.5);
+  --y: calc(var(--py) - 0.5);
+  opacity: 1;
+  transform: perspective(1000px);
 }
-
-.slider-container .owl-dots >*{
-    outline: none;
-}
-
-.card {
-    width: 300px;
-    height: 430px;
-    background: white;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 0px 5px;
-    justify-content: space-between;
-    transition: all 0.3s ease;
-}
-
-.card h3{
-    font-weight: 500;
-    margin: 15px;
-    font-size: 20px;
-}
-
-.card:hover{
-    transform: scale(1.1);
-    
-}
-
-.card img{
-    border-radius: 10px 10px 0 0;
-    height: 300px;
-    width: 100%;
-}
-
-.card .button-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.card .MuiButton-root{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    box-shadow: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.card .MuiButton-root:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
+.slide[data-active] .slideContent:hover {
+  transition: none;
+  transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));
 }
