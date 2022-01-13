@@ -3,7 +3,8 @@
     font-family: 'Montserrat', sans-serif;
     overflow: scroll;
     scroll-behavior: smooth;
-    background: linear-gradient(to right, #0F0A18, #0F0A18);
+    /* background: #0F000B; */
+    background: #1D0014;
     color: white;
 }
 
