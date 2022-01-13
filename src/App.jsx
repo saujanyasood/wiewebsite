@@ -4,6 +4,7 @@ import Contact from "./Components/Contact/Contact"
 import About from "./Components/About/About"
 import Events from "./Components/Events/Events"
 import "./App.css"
+import Timeline from "./Components/Timeline/Timeline"
 
 function App(){
 
@@ -39,6 +40,7 @@ function App(){
                 <About />
                 <Events />
                 <Contact />
+                <Timeline/>
             </div>
         </div>
     );
