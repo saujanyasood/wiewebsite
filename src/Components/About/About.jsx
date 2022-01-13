@@ -1,38 +1,51 @@
-import React from "react";
-import "./About.css";
-import woman from "./woman.png";
-import "./blobz.css"
-
+import React from 'react'
+import women from './woman.png'
+import w1 from './w1.png'
+import w2 from './w2.png'
+import women2 from './wonen2.png'
+import './About.css'
 function About() {
-  return (
-    <div className="about" id="about">
-      <div className="left">
-        <img className="woman" src={woman} alt="woman" />
-        <div class="tk-blob">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.2 726.7">
-                <path d="M539.8 137.6c98.3 70 183.5 124 203 198.4 19.3 74.4-27.1 168.2-93.8 245-66.9 76.8-153.8 136.6-254.2 144.9-100.6 8.2-214.7-35.1-292.7-122.5S-18.1 384.1 7.4 259.8C33 135.6 126.3 19 228.5 2.2c102.1-16.8 213.2 66.3 311.3 135.4z"></path>
-            </svg>
-        </div>
-      </div>
-      <div className="right">
-        <div className="textContainer">
-          <h1>About us</h1>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Suspendisse rhoncus efficitur lacus, vitae malesuada erat pellentesque nec. 
-          Etiam tempor tempor neque, et finibus justo sodales id. 
-          Phasellus eu finibus massa, eu ultricies elit. 
-          Donec a sodales mi, ut scelerisque neque. 
-          Fusce ornare felis at dignissim efficitur. 
-          Curabitur tempus ligula augue. Donec non egestas turpis. 
-          Proin ut pharetra dolor. Proin sit amet arcu fringilla, condimentum arcu ut, 
-          interdum ante. Integer vitae.
-          </p>
-        </div>
-      </div>
-      Timeline
+    return (
+        <div>
+          <div class="container">
+  <div class="row">
+    <div class="col">
+      <img src={women} class="mt-3" style={{'height':'350px','width':'auto'}} />
     </div>
-  );
+    <div class="col">
+      <h5 class="mt-3">WIE IEEE DTU</h5>
+      <h1 >About Us</h1>
+      <p>IEEE Women in Engineering (WIE) is a global network of IEEE members and volunteers dedicated to promoting women engineers and scientists, and inspiring girls around the world to follow their academic interests in a career in engineering and science.</p>
+      
+         
+<div className="row"><div className="col text-center"><img src={w1} style={{'height':'50px','width':'50px'}} /><br/> <h5>Pledge</h5><p>Work towards gender-diversified panels at all IEEE meetings, conferences, and events</p>
+</div><div className="col text-center"> <img src={w2} style={{'height':'50px','width':'50px'}} /><br/><h5>Mission & Vision</h5> <p>Facilitate the recruitment and retention of women in technical disciplines globally</p></div></div>
+         
+    </div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+   
+    <div class="col">
+
+      <h5 class="mt-3" >IEEE WIE Strives to</h5>
+      <p>Provide assistance with the formation of new IEEE WIE Affinity Groups and support ongoing activities.
+Recognize the outstanding achievements of women in electrical and electronics engineering through IEEE Awards nominations.
+Organize workshops at major technical conferences to enhance networking and to promote membership in IEEE WIE.
+Advocate women in leadership roles in IEEE governance and career advancement for women in the profession.</p>
+      
+
+         
+    </div>
+    <div class="col">
+      <img src={women2} class="mt-5" style={{'height':'200px','width':'600px'}} />
+    </div>
+    </div>
+  </div>
+  
+        </div>
+    )
 }
 
-export default About;
+export default About
