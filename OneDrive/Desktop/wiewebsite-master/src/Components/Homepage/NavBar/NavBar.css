@@ -1,0 +1,50 @@
+.navBar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    position: fixed;
+    top: -100px;
+    z-index: 3;
+    width: 100%;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navBarActive{
+    top: 0;
+}
+
+.darkBGColor{
+    background-color: black;
+}
+
+.navBar .left{
+    flex: 0.3;
+    align-items: center;
+}
+
+.navBar .right{
+    flex: 0.5;
+    align-items: center;
+}
+
+
+.navBar .logo{
+    margin-left: 30px;
+}
+
+.navBar .logo img{
+    height: 80px;
+    width: 100px;
+}
+
+.navBar .right ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 0;
+}

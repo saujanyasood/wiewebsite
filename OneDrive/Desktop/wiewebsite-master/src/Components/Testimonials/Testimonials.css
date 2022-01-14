@@ -1,0 +1,7 @@
+.testimonial{
+    display: inline-block;
+    height: 400px;
+    width: 30%;
+    margin: 20px;
+    background-color:cadetblue;
+}
