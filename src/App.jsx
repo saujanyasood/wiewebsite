@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import Homepage from "./Components/Homepage/Homepage"
-import Contact from "./Components/Contact/Contact"
+import Contact from "./Components/Contact/Footer"
 import About from "./Components/About/About"
 import Events from "./Components/Events/Events"
 import "./App.css"
