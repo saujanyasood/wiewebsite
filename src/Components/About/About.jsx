@@ -12,7 +12,8 @@ function About() {
           <div class="col">
             <img
               src={women}
-              class="mt-3"
+              alt="woman"
+              class="woman-img"
               style={{ height: "350px", width: "auto" }}
             />
           </div>
@@ -28,7 +29,7 @@ function About() {
 
             <div className="row">
               <div className="col text-center">
-                <img src={w1} style={{ height: "50px", width: "50px" }} />
+                <img src={w1} alt="w1" style={{ height: "50px", width: "50px" }} />
                 <br /> <h5>Pledge</h5>
                 <p>
                   Work towards gender-diversified panels at all IEEE meetings,
@@ -36,8 +37,7 @@ function About() {
                 </p>
               </div>
               <div className="col text-center">
-                {" "}
-                <img src={w2} style={{ height: "50px", width: "50px" }} />
+                <img src={w2} alt="w2" style={{ height: "50px", width: "50px" }} />
                 <br />
                 <h5>Mission & Vision</h5>{" "}
                 <p>
@@ -66,6 +66,7 @@ function About() {
           <div class="col">
             <img
               src={women2}
+              alt="woman"
               class="mt-5"
               style={{ height: "200px", width: "600px" }}
             />

@@ -25,12 +25,12 @@
     animation: star-spin infinite 15s linear;
 }
 
-.about .left .woman{
+.woman-img{
     /* position: absolute; */
     /* top: 10%; */
     z-index: 2; 
-    height: 55%;
-    /* width */
+    width: 90vh;
+    object-fit: contain;
     margin-left: 10px;
 }
 

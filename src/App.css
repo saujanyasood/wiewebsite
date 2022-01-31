@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     overflow: scroll;
     scroll-behavior: smooth;
-    background: #1D0014;
+    background: #2b011f;
     color: white;
 }
 
@@ -20,11 +20,6 @@
     height: calc(100vh - 100px);
     width: 100%;
     position: relative;
-}
-
-.sections > *{
-    height: 100vh;
-    width: 100%;
 }
 
 .app .homepageContainer{

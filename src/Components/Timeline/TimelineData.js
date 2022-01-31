@@ -11,19 +11,19 @@ export const data = [
   },
   {
     heading: " DeShaw",
-    description:" Mentorshing and Opputunity to work on tech projects"
+    description:" Mentorshing and Opputunity to work on tech projects",
     img: deshaw,
     date: "30 August",
   },
   {
     heading: "STEP",
-    description:"12 week internship for women"
+    description:"12 week internship for women",
     img: google,
     date: "Multiple Dates",
   },
   {
     heading: "JPMorgan Quant Mentorship",
-    description:" lorem ipsum "
+    description:" lorem ipsum ",
     img: jpm,
     date: "16 Feb",
   },

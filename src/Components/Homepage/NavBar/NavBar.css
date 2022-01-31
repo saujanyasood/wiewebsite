@@ -1,50 +1,67 @@
-.navBar{
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color:white;
-    position: fixed;
-    top: -100px;
-    z-index: 4;
-    width: 100%;
-    transition: all 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.2);
+.navBar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: -100px;
+  z-index: 999;
+  width: 100%;
+  transition: all 0.5s ease;
+  background-color: rgba(29, 0, 20, 0.2);
 }
 
-.navBarActive{
-    top: 0;
+.navBarActive {
+  top: 0;
 }
 
-.darkBGColor{
-    background-color: black;
+.darkBGColor {
+  background-color: rgb(29, 0, 20);
 }
 
-.navBar .left{
-    flex: 0.3;
-    align-items: center;
+.navBar .left {
+  align-items: center;
+  display: flex;
 }
 
-.navBar .right{
-    flex: 0.5;
-    align-items: center;
+.navBar .right {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-
-.navBar .logo{
-    margin-left: 30px;
+.navBar .logo {
+  margin-left: 30px;
 }
 
-.navBar .logo img{
-    height: 80px;
-    width: 100px;
+.navBar .logo img {
+  height: 80px;
+  width: 100px;
 }
 
-.navBar .right ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 40px;
-    margin-bottom: 0;
+.navBar .right ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0;
+  flex-direction: row;
+}
+
+.iconContainer {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .navBar .right ul {
+    display: none;
+  }
+
+  .iconContainer {
+    padding: 25px;
+    display: inline;
+    visibility: visible;
+  }
 }

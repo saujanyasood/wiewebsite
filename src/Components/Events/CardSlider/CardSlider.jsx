@@ -1,100 +1,88 @@
-import React from 'react';
-import './CardSlider.css'
+import React from "react";
+import "./CardSlider.css";
 
-import apis from "./WIEEvents/APIs.jpeg"
-import arvr from "./WIEEvents/ARVR.jpeg"
-import blockchain from "./WIEEvents/Blockchain.jpeg"
-import codingblocks from "./WIEEvents/CodingBlocks.jpeg"
-import cybersec from "./WIEEvents/CyberSecurity.jpeg"
-import fintech from "./WIEEvents/Fintech.jpeg"
-import innovation from "./WIEEvents/Innovation.jpeg"
-import itrack from "./WIEEvents/iTrack.jpeg"
-import webd from "./WIEEvents/WebDevelopment.jpeg"
-import wiex from "./WIEEvents/WIExperience.jpeg"
-import womenintech from "./WIEEvents/WomenInTech.jpeg"
-import paneldisc from "./WIEEvents/PanelDisc.jpeg"
+import apis from "./WIEEvents/APIs.jpeg";
+import arvr from "./WIEEvents/ARVR.jpeg";
+import blockchain from "./WIEEvents/Blockchain.jpeg";
+import codingblocks from "./WIEEvents/CodingBlocks.jpeg";
+import cybersec from "./WIEEvents/CyberSecurity.jpeg";
+import fintech from "./WIEEvents/Fintech.jpeg";
+import innovation from "./WIEEvents/Innovation.jpeg";
+import itrack from "./WIEEvents/iTrack.jpeg";
+import webd from "./WIEEvents/WebDevelopment.jpeg";
+import wiex from "./WIEEvents/WIExperience.jpeg";
+import womenintech from "./WIEEvents/WomenInTech.jpeg";
+import paneldisc from "./WIEEvents/PanelDisc.jpeg";
 
 console.clear();
 
 const slides = [
   {
-    title: "Machu Picchu",
-    subtitle: "Peru",
-    description: "Adventure is never far away",
-    image: apis
+    title: "APIs 101",
+    description: "with Postman",
+    image: apis,
   },
   {
-    title: "Chamonix",
-    subtitle: "France",
-    description: "Let your dreams come true",
-    image: arvr
+    title: "Cloud Connected AR/VR App",
+    description: "in 15 minutes",
+    image: arvr,
   },
   {
-    title: "Mimisa Rocks",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: blockchain
+    title: "BlockChain 101 Workshop",
+    description: "with Tezos",
+    image: blockchain,
   },
   {
-    title: "Four",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: codingblocks
+    title: "Get Set Innovate",
+    description: "",
+    image: codingblocks,
   },
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: cybersec
+    title: "CyberSecurity",
+    description: "Dos and Donts",
+    image: cybersec,
   },
 
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: fintech
+    title: "Fintech Fundamentals",
+    description: "",
+    image: fintech,
   },
 
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: itrack
+    title: "Webinar on iTrack",
+    description: "",
+    image: itrack,
   },
 
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: innovation
+    title: "Innovation in Education",
+    description: "",
+    image: innovation,
   },
 
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: webd
+    title: "When and How to start on a project",
+    description: "with Web Development",
+    image: webd,
   },
 
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: wiex
+    title: "WIExperience",
+    description: "",
+    image: wiex,
   },
 
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: womenintech
+    title: "Women in Tech",
+    description: "",
+    image: womenintech,
   },
   {
     title: "Panel Discussion",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: paneldisc
-  }
+    description: "Placement Opportunities for Women",
+    image: paneldisc,
+  },
 ];
 
 function useTilt(active) {
@@ -108,7 +96,7 @@ function useTilt(active) {
     const state = {
       rect: undefined,
       mouseX: undefined,
-      mouseY: undefined
+      mouseY: undefined,
     };
 
     let el = ref.current;
@@ -140,21 +128,21 @@ function useTilt(active) {
 }
 
 const initialState = {
-  slideIndex: 0
+  slideIndex: 0,
 };
 
 const slidesReducer = (state, event) => {
   if (event.type === "NEXT") {
     return {
       ...state,
-      slideIndex: (state.slideIndex + 1) % slides.length
+      slideIndex: (state.slideIndex + 1) % slides.length,
     };
   }
   if (event.type === "PREV") {
     return {
       ...state,
       slideIndex:
-        state.slideIndex === 0 ? slides.length - 1 : state.slideIndex - 1
+        state.slideIndex === 0 ? slides.length - 1 : state.slideIndex - 1,
     };
   }
 };
@@ -170,24 +158,13 @@ function Slide({ slide, offset }) {
       data-active={active}
       style={{
         "--offset": offset,
-        "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1
+        "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1,
       }}
     >
-      <div
-        className="slideBackground"
-        // style={{
-        //   backgroundImage: `url('${slide.image}')`
-        // }}
-      />
-      <div
-        className="slideContent" 
-        // style={{
-        //   backgroundImage: `url('${slide.image}')`
-        // }}
-      ><img src = {wiex}></img>
+      <div className="slideContent">
+        <img src={slide.image} alt="slide"></img>
         <div className="slideContentInner">
           <h2 className="slideTitle">{slide.title}</h2>
-          <h3 className="slideSubtitle">{slide.subtitle}</h3>
           <p className="slideDescription">{slide.description}</p>
         </div>
       </div>
@@ -199,7 +176,7 @@ function CardSlider() {
   const [state, dispatch] = React.useReducer(slidesReducer, initialState);
 
   return (
-    <div className = "CardSlider">
+    <div className="CardSlider">
       <div className="slides">
         <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
 
@@ -212,6 +189,5 @@ function CardSlider() {
     </div>
   );
 }
-
 
 export default CardSlider;

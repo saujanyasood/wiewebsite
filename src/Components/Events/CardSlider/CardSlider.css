@@ -15,7 +15,7 @@
 }
 
 .CardSlider {
-  background: #151515;
+  background: #1D0014;
   color: #fff;
   overflow: hidden;
 }
@@ -80,7 +80,7 @@
 }
 
 .slideContent img {
-  height: 60%;
+  height: 75%;
   object-fit: contain;
 }
 
@@ -90,6 +90,9 @@
   transition: opacity 0.3s linear;
   text-shadow: 0 0.1rem 1rem #000;
   opacity: 0;
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
 }
 .slideContentInner .slideSubtitle,
 .slideContentInner .slideTitle {

@@ -39,8 +39,9 @@ function App(){
                 </div>
                 <About />
                 <Events />
-                <Contact />
+                
                 <Timeline/>
+                <Contact />
             </div>
         </div>
     );
