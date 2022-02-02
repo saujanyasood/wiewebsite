@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import Homepage from "./Components/Homepage/Homepage"
 import Contact from "./Components/Contact/Footer"
 import About from "./Components/About/About"
-import Events from "./Components/Events/Events"
+import Events from "./Components/Events/Blogs"
 import "./App.css"
 import Timeline from "./Components/Timeline/Timeline"
 
