@@ -25,14 +25,7 @@ function Blogs() {
   return (
     <div className="blogs-container" id="blog" ref={element}>
       <div className="container">
-        <motion.div
-          className="title-container"
-          variants={textAnimation}
-          animate={controls}
-          transition={{ duration: 1 }}
-        >
           <Title title="Events" color="pink" lineCenter={true} />
-        </motion.div>
         <div className="blogs">
           <Blog
             image={BlogImage1}
