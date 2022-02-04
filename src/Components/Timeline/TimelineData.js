@@ -23,7 +23,7 @@ export const data = [
   },
   {
     heading: "JPMorgan Quant Mentorship",
-    description:" lorem ipsum ",
+    description:"Opportunity to build skills required for a successful career in Quantitative Finance.",
     img: jpm,
     date: "16 Feb",
   },
