@@ -4,19 +4,19 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "./Blog.scss";
 
-function Blog({ image, title, subTitle, variants, animate }) {
+function Blog({ image, content, subTitle, variants, animate }) {
   return (
-    <motion.div
+    <div
       className="blog-container"
-      variants={variants}
-      animate={animate}
+      // variants={variants}
+      // animate={animate}
     >
       <div className="image">
         <img src={image} alt="Blog" />
       </div>
       <div className="content">
         <div className="title">
-          <h3>{title}</h3>
+          <h3>{content}</h3>
         </div>
         <div className="subTitle">
           <p>{subTitle}</p>
@@ -34,7 +34,7 @@ function Blog({ image, title, subTitle, variants, animate }) {
           />
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
