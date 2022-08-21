@@ -32,7 +32,6 @@ const Timeline = () => {
                 <img
                   src={game.img}
                   style={{
-                    height: "70%",
                     textAlign: "center",
                   }}
                   alt="icon"

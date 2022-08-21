@@ -6,30 +6,26 @@ import "./Blog.scss";
 
 function Blog({ image, content, subTitle, variants, animate }) {
   return (
-    <div
-      className="blog-container"
-      // variants={variants}
-      // animate={animate}
-    >
-      <div className="image">
-        <img src={image} alt="Blog" />
+    <div className='blog-container' variants={variants} animate={animate}>
+      <div className='image'>
+        <img src={image} alt='Blog' />
       </div>
-      <div className="content">
-        <div className="title">
+      <div className='content'>
+        <div className='title'>
           <h3>{content}</h3>
         </div>
-        <div className="subTitle">
+        <div className='subTitle'>
           <p>{subTitle}</p>
         </div>
         <a
-          href="https://bit.ly/ieee-techweek22"
+          href='https://bit.ly/ieee-techweek22'
           style={{ textDecoration: "none" }}
-          target="_blank"
-          rel="noreferrer"
+          target='_blank'
+          rel='noreferrer'
         >
           <Button
-            content="Register"
-            color="inverse"
+            content='Register'
+            color='inverse'
             icon={<HiOutlineArrowNarrowRight />}
           />
         </a>

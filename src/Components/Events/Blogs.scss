@@ -4,7 +4,7 @@
   .container {
     margin: 0 10%;
 
-    padding: 5rem 0;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,9 +23,11 @@
     }
     .blogs {
       margin-bottom: 2rem;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      // grid-template-columns: repeat(3, 1fr);
+      // gap: 4rem;
     }
     .button-container {
       display: flex;
@@ -44,7 +46,8 @@
         }
       }
       .blogs {
-        grid-template-columns: 1fr;
+        display: flex;
+        // grid-template-columns: 1fr;
       }
     }
   }

@@ -23,7 +23,7 @@ function Blogs() {
   const [element, controls] = useScroll();
 
   return (
-    <div className="blogs-container" id="blog" ref={element}>
+    <div className="blogs-container" id="events" ref={element}>
       <div className="container">
           <Title title="Events" color="pink" lineCenter={true} />
         <div className="blogs">
