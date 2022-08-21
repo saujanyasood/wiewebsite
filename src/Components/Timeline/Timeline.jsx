@@ -48,9 +48,6 @@ const Timeline = () => {
               <h4 className="vertical-timeline-element-subtitle">
                 {game.description}
               </h4>
-              {/* <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus id orci non hendrerit. Fusce eget felis ac nisi finibus.
-          </p> */}
             </VerticalTimelineElement>
           );
         })}
