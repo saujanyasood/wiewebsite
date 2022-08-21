@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wiewebsite/static/css/main.2ca7aed8.chunk.css",
-    "main.js": "/wiewebsite/static/js/main.55c20613.chunk.js",
-    "main.js.map": "/wiewebsite/static/js/main.55c20613.chunk.js.map",
+    "main.css": "/wiewebsite/static/css/main.89a1ddd0.chunk.css",
+    "main.js": "/wiewebsite/static/js/main.ce2aad82.chunk.js",
+    "main.js.map": "/wiewebsite/static/js/main.ce2aad82.chunk.js.map",
     "runtime-main.js": "/wiewebsite/static/js/runtime-main.9bccefb4.js",
     "runtime-main.js.map": "/wiewebsite/static/js/runtime-main.9bccefb4.js.map",
     "static/css/2.2e99a83d.chunk.css": "/wiewebsite/static/css/2.2e99a83d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.c594271f.chunk.js.map": "/wiewebsite/static/js/2.c594271f.chunk.js.map",
     "index.html": "/wiewebsite/index.html",
     "static/css/2.2e99a83d.chunk.css.map": "/wiewebsite/static/css/2.2e99a83d.chunk.css.map",
-    "static/css/main.2ca7aed8.chunk.css.map": "/wiewebsite/static/css/main.2ca7aed8.chunk.css.map",
+    "static/css/main.89a1ddd0.chunk.css.map": "/wiewebsite/static/css/main.89a1ddd0.chunk.css.map",
     "static/js/2.c594271f.chunk.js.LICENSE.txt": "/wiewebsite/static/js/2.c594271f.chunk.js.LICENSE.txt",
     "static/media/IEEE_DTU_Logo.e26df0a5.png": "/wiewebsite/static/media/IEEE_DTU_Logo.e26df0a5.png",
     "static/media/WIE_Logo_Black.086e5f1a.png": "/wiewebsite/static/media/WIE_Logo_Black.086e5f1a.png",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.9bccefb4.js",
     "static/css/2.2e99a83d.chunk.css",
     "static/js/2.c594271f.chunk.js",
-    "static/css/main.2ca7aed8.chunk.css",
-    "static/js/main.55c20613.chunk.js"
+    "static/css/main.89a1ddd0.chunk.css",
+    "static/js/main.ce2aad82.chunk.js"
   ]
 }
