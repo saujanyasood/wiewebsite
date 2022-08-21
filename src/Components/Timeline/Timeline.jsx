@@ -23,7 +23,7 @@ const Timeline = () => {
               date={game.date}
               dateClassName="dateStyle"
               iconStyle={{
-                background: "black",
+                background: "white",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
