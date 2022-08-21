@@ -1,6 +1,7 @@
 import google from "./images/google.png";
 import jpm from "./images/jpm.png";
-import deshaw from "./images/deshaw.png";
+import deshaw from "./images/deshaw.jpeg";
+import flipkart from "./images/flipkart.png";
 
 export const data = [
   {
