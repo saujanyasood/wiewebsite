@@ -4,28 +4,33 @@ import deshaw from "./images/deshaw.png";
 
 export const data = [
   {
-    heading: "Google Genration Scholarship",
-    description: " Women students(pursuing computer)if selected will receive $1,000 USD as Scholarship",
-    img: google ,
-    date: " Dec 17- Jan 4",
-  },
-  {
-    heading: " DeShaw",
-    description:" Mentorshing and Opputunity to work on tech projects",
-    img: deshaw,
-    date: "30 August",
-  },
-  {
-    heading: "STEP",
-    description:"12 week internship for women",
-    img: google,
-    date: "Multiple Dates",
+    heading: "Flipkart Runway",
+    description:"Summer Internship or PPI opportunity for women.",
+    img: jpm,
+    date: "April",
   },
   {
     heading: "JPMorgan Quant Mentorship",
-    description:"Opportunity to build skills required for a successful career in Quantitative Finance.",
+    description:"Mentorship Program for a successful career in Quantitative Finance.",
     img: jpm,
-    date: "16 Feb",
+    date: "Feb",
   },
- 
+  {
+    heading: "Google Generation Scholarship",
+    description: " Women students (pursuing computer) if selected will receive $1,000 as Scholarship",
+    img: google ,
+    date: "Dec - Jan",
+  },
+  {
+    heading: "Google STEP Internship",
+    description:"12 Week Summer Internship for Women",
+    img: google,
+    date: "Nov - Dec",
+  },
+  {
+    heading: " DE Shaw Mentorship Program",
+    description:"Mentorship and Opportunity to work on live projects",
+    img: deshaw,
+    date: "Aug",
+  },
 ];
